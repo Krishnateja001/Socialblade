@@ -8,7 +8,7 @@ import random
 import re,time
 from faker import Faker
 import mysql.connector 
-from test  import get_followers_list_server,like_list_server
+from main  import get_followers_list_server,like_list_server
 names=[]
 fake=Faker()
 app = Flask(__name__)
